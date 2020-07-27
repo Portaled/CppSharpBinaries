@@ -1,0 +1,321 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly CLI.CLI, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Interface ICppInstance: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, BeforeFieldInit
+  Properties:
+    IntPtr __Instance 'get set' : 
+  Methods:
+    get___Instance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set___Instance(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class CLI.Types: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(CLI.Types): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Types*, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Types*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ICppInstance
+    System.IDisposable
+  Properties:
+    IntPtr __Instance 'get set' : 
+    Types* NativePtr 'get set' : 
+  Methods:
+    get_NativePtr(): PrivateScope, Public, HideBySig, SpecialName
+    set_NativePtr(Types*): PrivateScope, Public, HideBySig, SpecialName
+    get___Instance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set___Instance(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    __CreateInstance(IntPtr, Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    __CreateInstance(IntPtr): PrivateScope, Public, Static, HideBySig
+    AttributedSum(Int32, Int32): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class CLI.TestProtectedDestructors: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(CLI.TestProtectedDestructors): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(TestProtectedDestructors*, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(TestProtectedDestructors*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ICppInstance
+  Properties:
+    IntPtr __Instance 'get set' : 
+    TestProtectedDestructors* NativePtr 'get set' : 
+  Methods:
+    get_NativePtr(): PrivateScope, Public, HideBySig, SpecialName
+    set_NativePtr(TestProtectedDestructors*): PrivateScope, Public, HideBySig, SpecialName
+    get___Instance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set___Instance(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    __CreateInstance(IntPtr, Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    __CreateInstance(IntPtr): PrivateScope, Public, Static, HideBySig
+Class CLI.Date: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(CLI.Date): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Date*, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Date*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ICppInstance
+    System.IDisposable
+  Properties:
+    Int32 Yr   'get set' : 
+    Int32 Da   'get set' : 
+    Int32 Mo   'get set' : 
+    IntPtr __Instance 'get set' : 
+    Date* NativePtr 'get set' : 
+  Methods:
+    get_NativePtr(): PrivateScope, Public, HideBySig, SpecialName
+    set_NativePtr(Date*): PrivateScope, Public, HideBySig, SpecialName
+    get___Instance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set___Instance(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    __CreateInstance(IntPtr, Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    __CreateInstance(IntPtr): PrivateScope, Public, Static, HideBySig
+    get_Mo(): PrivateScope, Public, HideBySig, SpecialName
+    set_Mo(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Da(): PrivateScope, Public, HideBySig, SpecialName
+    set_Da(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Yr(): PrivateScope, Public, HideBySig, SpecialName
+    set_Yr(Int32): PrivateScope, Public, HideBySig, SpecialName
+    TestStdString(String): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class CLI.TestMappedTypeNonConstRefParam: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(TestMappedTypeNonConstRefParam*, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(TestMappedTypeNonConstRefParam*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ICppInstance
+    System.IDisposable
+  Properties:
+    System.String MStr 'get set' : 
+    IntPtr __Instance 'get set' : 
+    TestMappedTypeNonConstRefParam* NativePtr 'get set' : 
+  Methods:
+    get_NativePtr(): PrivateScope, Public, HideBySig, SpecialName
+    set_NativePtr(TestMappedTypeNonConstRefParam*): PrivateScope, Public, HideBySig, SpecialName
+    get___Instance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set___Instance(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    __CreateInstance(IntPtr, Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    __CreateInstance(IntPtr): PrivateScope, Public, Static, HideBySig
+    get_MStr(): PrivateScope, Public, HideBySig, SpecialName
+    set_MStr(String): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class CLI.TestMappedTypeNonConstRefParamConsumer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(CLI.TestMappedTypeNonConstRefParamConsumer): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(TestMappedTypeNonConstRefParamConsumer*, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(TestMappedTypeNonConstRefParamConsumer*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ICppInstance
+    System.IDisposable
+  Properties:
+    IntPtr __Instance 'get set' : 
+    TestMappedTypeNonConstRefParamConsumer* NativePtr 'get set' : 
+  Methods:
+    get_NativePtr(): PrivateScope, Public, HideBySig, SpecialName
+    set_NativePtr(TestMappedTypeNonConstRefParamConsumer*): PrivateScope, Public, HideBySig, SpecialName
+    get___Instance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set___Instance(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    __CreateInstance(IntPtr, Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    __CreateInstance(IntPtr): PrivateScope, Public, Static, HideBySig
+    ChangePassedMappedTypeNonConstRefParam(String&(In, Out)): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class CLI.VectorPointerGetter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(CLI.VectorPointerGetter): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(VectorPointerGetter*, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(VectorPointerGetter*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ICppInstance
+    System.IDisposable
+  Properties:
+    System.Collections.Generic.List`1[System.String] VecPtr 'get ' : 
+    IntPtr __Instance 'get set' : 
+    VectorPointerGetter* NativePtr 'get set' : 
+  Methods:
+    get_NativePtr(): PrivateScope, Public, HideBySig, SpecialName
+    set_NativePtr(VectorPointerGetter*): PrivateScope, Public, HideBySig, SpecialName
+    get___Instance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set___Instance(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    __CreateInstance(IntPtr, Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    __CreateInstance(IntPtr): PrivateScope, Public, Static, HideBySig
+    get_VecPtr(): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Struct CLI.UnionNestedInsideStruct: AutoLayout, AnsiClass, Class, Public, ExplicitLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(UnionNestedInsideStruct*, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(UnionNestedInsideStruct*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    SByte[] SzText 'get set' : 
+  Methods:
+    __CreateInstance(IntPtr, Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    __CreateInstance(IntPtr): PrivateScope, Public, Static, HideBySig
+    get_SzText(): PrivateScope, Public, HideBySig, SpecialName
+    set_SzText(SByte[]): PrivateScope, Public, HideBySig, SpecialName
+Class CLI.StructWithNestedUnion: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(CLI.StructWithNestedUnion): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(StructWithNestedUnion*, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(StructWithNestedUnion*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ICppInstance
+    System.IDisposable
+  Properties:
+    CLI.UnionNestedInsideStruct NestedUnion 'get set' : 
+    IntPtr __Instance 'get set' : 
+    StructWithNestedUnion* NativePtr 'get set' : 
+  Methods:
+    get_NativePtr(): PrivateScope, Public, HideBySig, SpecialName
+    set_NativePtr(StructWithNestedUnion*): PrivateScope, Public, HideBySig, SpecialName
+    get___Instance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set___Instance(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    __CreateInstance(IntPtr, Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    __CreateInstance(IntPtr): PrivateScope, Public, Static, HideBySig
+    get_NestedUnion(): PrivateScope, Public, HideBySig, SpecialName
+    set_NestedUnion(UnionNestedInsideStruct): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class CLI.StructNestedInsideUnion: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(CLI.StructNestedInsideUnion): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(StructNestedInsideUnion*, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(StructNestedInsideUnion*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ICppInstance
+    System.IDisposable
+  Properties:
+    SByte[] SzText 'get set' : 
+    IntPtr __Instance 'get set' : 
+    StructNestedInsideUnion* NativePtr 'get set' : 
+  Methods:
+    get_NativePtr(): PrivateScope, Public, HideBySig, SpecialName
+    set_NativePtr(StructNestedInsideUnion*): PrivateScope, Public, HideBySig, SpecialName
+    get___Instance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set___Instance(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    __CreateInstance(IntPtr, Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    __CreateInstance(IntPtr): PrivateScope, Public, Static, HideBySig
+    get_SzText(): PrivateScope, Public, HideBySig, SpecialName
+    set_SzText(SByte[]): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Struct CLI.UnionWithNestedStruct: AutoLayout, AnsiClass, Class, Public, ExplicitLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(UnionWithNestedStruct*, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(UnionWithNestedStruct*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    CLI.StructNestedInsideUnion NestedStruct 'get set' : 
+  Methods:
+    __CreateInstance(IntPtr, Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    __CreateInstance(IntPtr): PrivateScope, Public, Static, HideBySig
+    get_NestedStruct(): PrivateScope, Public, HideBySig, SpecialName
+    set_NestedStruct(StructNestedInsideUnion): PrivateScope, Public, HideBySig, SpecialName
+Struct CLI.UnionWithNestedStructArray: AutoLayout, AnsiClass, Class, Public, ExplicitLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(UnionWithNestedStructArray*, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(UnionWithNestedStructArray*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    CLI.StructNestedInsideUnion[] NestedStructs 'get set' : 
+  Methods:
+    __CreateInstance(IntPtr, Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    __CreateInstance(IntPtr): PrivateScope, Public, Static, HideBySig
+    get_NestedStructs(): PrivateScope, Public, HideBySig, SpecialName
+    set_NestedStructs(StructNestedInsideUnion[]): PrivateScope, Public, HideBySig, SpecialName
+Class CLI.CLI: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    TestFreeFunction(): PrivateScope, Public, Static, HideBySig
+    MultipleConstantArraysParamsTestMethod(SByte[], SByte[]): PrivateScope, Public, Static, HideBySig
+    StructWithNestedUnionTestMethod(StructWithNestedUnion): PrivateScope, Public, Static, HideBySig
+    UnionWithNestedStructTestMethod(UnionWithNestedStruct): PrivateScope, Public, Static, HideBySig
+    UnionWithNestedStructArrayTestMethod(UnionWithNestedStructArray): PrivateScope, Public, Static, HideBySig
+Class CLI.ClassWithNestedEnum: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(CLI.ClassWithNestedEnum): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(ClassWithNestedEnum*, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(ClassWithNestedEnum*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ICppInstance
+    System.IDisposable
+  Properties:
+    IntPtr __Instance 'get set' : 
+    ClassWithNestedEnum* NativePtr 'get set' : 
+  Methods:
+    get_NativePtr(): PrivateScope, Public, HideBySig, SpecialName
+    set_NativePtr(ClassWithNestedEnum*): PrivateScope, Public, HideBySig, SpecialName
+    get___Instance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set___Instance(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    __CreateInstance(IntPtr, Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    __CreateInstance(IntPtr): PrivateScope, Public, Static, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Struct CLI.ClassWithNestedEnum+NestedEnum: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    NestedEnum E1 = 0 : Public, Static, Literal, HasDefault
+    NestedEnum E2 = 1 : Public, Static, Literal, HasDefault
+Class CLI.Employee: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(CLI.Employee): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Employee*, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Employee*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ICppInstance
+    System.IDisposable
+  Properties:
+    System.String Name 'get ' : 
+    IntPtr __Instance 'get set' : 
+    Employee* NativePtr 'get set' : 
+  Methods:
+    get_NativePtr(): PrivateScope, Public, HideBySig, SpecialName
+    set_NativePtr(Employee*): PrivateScope, Public, HideBySig, SpecialName
+    get___Instance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set___Instance(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    __CreateInstance(IntPtr, Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    __CreateInstance(IntPtr): PrivateScope, Public, Static, HideBySig
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class CLI.Employee+Func_std_basic_string___Internalc__N_std_S_basic_string__C___N_std_S_char_traits__C___N_std_S_allocator__C_IntPtr: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(IntPtr, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class CLI.EmployeeOrg: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(CLI.EmployeeOrg): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(EmployeeOrg*, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(EmployeeOrg*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ICppInstance
+    System.IDisposable
+  Properties:
+    CLI.Employee Employee 'get ' : 
+    IntPtr __Instance 'get set' : 
+    EmployeeOrg* NativePtr 'get set' : 
+  Methods:
+    get_NativePtr(): PrivateScope, Public, HideBySig, SpecialName
+    set_NativePtr(EmployeeOrg*): PrivateScope, Public, HideBySig, SpecialName
+    get___Instance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set___Instance(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    __CreateInstance(IntPtr, Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    __CreateInstance(IntPtr): PrivateScope, Public, Static, HideBySig
+    get_Employee(): PrivateScope, Public, HideBySig, SpecialName
+    DoSomething(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class CLI.NestedEnumConsumer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(CLI.NestedEnumConsumer): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(NestedEnumConsumer*, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(NestedEnumConsumer*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ICppInstance
+    System.IDisposable
+  Properties:
+    IntPtr __Instance 'get set' : 
+    NestedEnumConsumer* NativePtr 'get set' : 
+  Methods:
+    get_NativePtr(): PrivateScope, Public, HideBySig, SpecialName
+    set_NativePtr(NestedEnumConsumer*): PrivateScope, Public, HideBySig, SpecialName
+    get___Instance(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set___Instance(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    __CreateInstance(IntPtr, Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    __CreateInstance(IntPtr): PrivateScope, Public, Static, HideBySig
+    GetPassedEnum(NestedEnum): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
